@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* this for logo deben*/
+.containerOverFlue{
+    overflow: auto;
+}
+.loginDesign{
+    background-color:#1E6EF5;
+    height: 100vh !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.imgContainer{
+    margin: auto;
+    position: absolute;
+    top:120px;
+    text-align: center;
+    color: #E2E2E2;
+}
+.loginDesign img{
+    width: 90%;
+    height: 64px;
+}
+.containerWelcome{
+    height: 100vh !important;
+    z-index: 2;
+}
+.containerUser{
+    position: absolute;
+    top: 250px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 10px;
+    width: 330px;
+    height: 67px;
+    box-sizing: border-box;
+    display: flex;
+}
+.containerUser .icon-user-o{
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    width: 376px;
+}
+.containerUser .loginParagraphe{
+    position: absolute;
+    left: 50px ;
+    top: 14px;
+    width: 10% !important;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.1689px;
+    line-height: 32px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* white */
+    color: #FFFFFF;
+}
+.icon-eye-slash,
+.icon-eye{
+    position:absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+}
+.containerUser .icon-circle{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: aliceblue;
+}
+/*  the end here about logoDeben CSS */
+/* the form CSS */
+.messageMoring{
+    width: 120px;
+    margin: 20px;
+}
+.messageMoring h5{
+    color: #3A4956;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contaienrForm{
+    height: 550px !important;
+    margin: auto;
+    background: #FFFFFF;
+    /* card shadow */
+    box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+}
+.getGelpDiv{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.getGelpDiv a{
+    color: #58BEF3;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+}
+.getGelpDiv span{
+    color: #58BEF3;
+    position: absolute;
+    right:1px;
+    font-size:22px ;
+}
+.welcomeBackH1{
+    display: flex;
+    justify-content: center;
+}
+.welcomeBackH1 h1{
+    position: absolute;
+    top: 60px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    
+    /* Blue 1 */
+    
+    color: #208AE7;
+
+}
+.containerForm{
+    height: 65% !important;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.form-group{
+    margin: 30px;
+}
+/* input name & input Password */
+.form-group .inputUserName,
+.form-group .inputPasswod{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    /* card shadow */
+    box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+}
+.containerCheckAndForget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ForgetPassword  a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    /* mid gray */
+
+    color: #979797;
+}
+.rememberAccept{
+    display: flex;
+    justify-content: end;
+    margin-top:10px !important ;
+    position:relative;
+}
+.rememberAccept a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    /* highlighted blue */
+
+    color: #58BEF3;
+}
+.btnLogindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnLogindiv button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 130px;
+    gap: 12px;
+
+    background: #58BEF3;
+    box-shadow: -0.44px 0.44px 1.75px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: none;
+}
