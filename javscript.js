@@ -1,7 +1,12 @@
+
 const showPass = document.getElementById("showPass");
+// showpass this is icone eye
 const inputPass = document.getElementById("inputPassword3");
+// inputpass this is input password
 const btnLogin = document.getElementById("login")
-// this is for heidden password and show  
+// btnLogin this is button login
+
+// this fuction to showing password and hiddening passwiod
 showPass.addEventListener("click",(eo)=> {
     if(inputPass.type === "password"){
         inputPass.removeAttribute("type","password");
@@ -17,7 +22,7 @@ showPass.addEventListener("click",(eo)=> {
     }
         
 })
-// this for 
+// for not refresh form or page  
 btnLogin.addEventListener("click",(eo)=>{
     eo.preventDefault();
 })

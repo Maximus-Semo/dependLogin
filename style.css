@@ -5,10 +5,14 @@
 }
 /* this for logo deben*/
 .containerOverFlue{
-    overflow: auto;
+    width: 100%;
+    height: 100vh !important;
+    overflow: hidden;
 }
 .loginDesign{
+    overflow: hidden;
     background-color:#1E6EF5;
+    width: 100%;
     height: 100vh !important;
     position: relative;
     display: flex;
@@ -24,10 +28,6 @@
 .loginDesign img{
     width: 90%;
     height: 64px;
-}
-.containerWelcome{
-    height: 100vh !important;
-    z-index: 2;
 }
 .containerUser{
     position: absolute;
@@ -81,11 +81,20 @@
 }
 /*  the end here about logoDeben CSS */
 /* the form CSS */
-.messageMoring{
-    width: 120px;
-    margin: 20px;
+.containerWelcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
-.messageMoring h5{
+.messageGoodMoring{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.messageGoodMoring h5{
     color: #3A4956;
     font-family: 'Nunito';
     font-style: normal;
@@ -94,14 +103,15 @@
     line-height: 25px;
 }
 .contaienrForm{
-    height: 550px !important;
-    margin: auto;
-    background: #FFFFFF;
+    overflow: auto;
+    width: 220px;
+    height: 75vh !important;
+    background: #fff;
     /* card shadow */
     box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     position: relative;
-    z-index: -1;
+
 }
 .getGelpDiv{
     width: 100px;
@@ -129,11 +139,11 @@
 .welcomeBackH1{
     display: flex;
     justify-content: center;
+    background-color: #979797;
 }
 .welcomeBackH1 h1{
     position: absolute;
     top: 60px;
-
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
