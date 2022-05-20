@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,17 +7,25 @@
 }
 /* this for logo deben*/
 .containerOverFlue{
-    width: 100%;
     height: 100vh !important;
+    /* width: 1921px; */
     overflow: hidden;
 }
+/* @media screen and (max-width: 1200px) {
+    .containerOverFlue {
+        width: 100% !important;
+
+    }
+} */
+
 .loginDesign{
-    background-color:#1E6EF5;
-    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -77.3%, rgba(233, 232, 232, 0.124555) 40.98%, rgba(225, 224, 224, 0.0987332) 59.26%, rgba(197, 194, 194, 0) 100%), #1E6EF5;    width: 100%;
+    /* width: 376px !important; */
     height: 100vh !important;
     position: relative;
     display: flex;
     justify-content: center;
+    
 }
 .imgContainer{
     margin: auto;
@@ -25,7 +34,9 @@
     text-align: center;
     color: #E2E2E2;
     transition: all 0.5s;
-
+}
+.imgContainer p{
+    margin-top: 10px;
 }
 @media screen and (max-width: 690px) {
     .imgContainer {
@@ -110,12 +121,6 @@
 .containerWelcome{
     margin: auto;
 }
-@media screen and (max-width: 500px) {
-.messageGoodMoring {
-    display: none;
-}
-  
-}
 .messageGoodMoring{
     width: 150px;
     height: 25px;
@@ -123,12 +128,16 @@
 }
 
 .messageGoodMoring h5{
-    color: #3A4956;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
+
+    /* dark blue */
+
+    color: #3A4956;
+
 }
 .contaienrForm{
     overflow: auto;
@@ -150,16 +159,20 @@
 }
 .getGelpDiv a{
     color: #58BEF3;
+    width: 120px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500 !important;
+    font-size: 24px;
     line-height: 33px;
     display: flex;
     align-items: center;
     text-decoration-line: underline;
+    position: absolute;
+    right:15px ;
 }
 .getGelpDiv span{
+    
     color: #58BEF3;
     position: absolute;
     right:1px;
