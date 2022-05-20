@@ -170,14 +170,31 @@
     text-decoration-line: underline;
     position: absolute;
     right:15px ;
+    transition: all 0.5s;
+
 }
-.getGelpDiv span{
-    
+.getGelpDiv span{    
     color: #58BEF3;
     position: absolute;
     right:1px;
-    font-size:22px ;
+    font-size:22px;
+    /* transition: all 0.3s; */
 }
+@media screen and (max-width: 720px) {
+    .getGelpDiv a {
+        font-size: 19px;
+        position: absolute;
+        right:-10px ;
+        transition: all 0.5s;
+    }
+    .getGelpDiv span{
+        position: absolute;
+        right:16px;
+        top: 5px;
+        transition: all 0.3s;
+
+    }
+  }
 .welcomeBackH1{
     display: flex;
     justify-content: center;
