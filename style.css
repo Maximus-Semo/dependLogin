@@ -20,12 +20,16 @@
 
 .loginDesign{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -77.3%, rgba(233, 232, 232, 0.124555) 40.98%, rgba(225, 224, 224, 0.0987332) 59.26%, rgba(197, 194, 194, 0) 100%), #1E6EF5;    width: 100%;
-    /* width: 376px !important; */
+    width: 376px !important;
     height: 100vh !important;
     position: relative;
     display: flex;
     justify-content: center;
-    
+}
+@media screen and (max-width: 1400px){
+    .loginDesign{
+        width: 25% !important;
+    }
 }
 .imgContainer{
     margin: auto;
@@ -119,6 +123,7 @@
 /*  the end here about logoDeben CSS */
 /* the form CSS */
 .containerWelcome{
+    width: 73.5% !important;
     margin: auto;
 }
 .messageGoodMoring{
@@ -230,7 +235,7 @@
 
 }
 .containerForm{
-    height: 65% !important;
+    width: 73.5% !important;
     position: absolute;
     top: 200px;
     left: 70px;
