@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -10,24 +11,23 @@
     height: 100vh !important;
     overflow: hidden;
 }
-
 .loginDesign{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -77.3%, rgba(233, 232, 232, 0.124555) 40.98%, rgba(225, 224, 224, 0.0987332) 59.26%, rgba(197, 194, 194, 0) 100%), #1E6EF5;    width: 100%;
-    width: 23.5rem !important;
+    width: 376px !important;
     height: 100vh !important;
     position: relative;
     display: flex;
     justify-content: center;
 }
 @media screen and (max-width: 1400px){
-    .loginDesign{
-        width: 25% !important;
+.loginDesign{
+    width: 25% !important;
     }
 }
 .imgContainer{
     margin: auto;
     position: absolute;
-    top:7.5rem;
+    top: 7.5rem;;
     text-align: center;
     color: #E2E2E2;
     transition: all 0.5s;
@@ -85,14 +85,13 @@
     position: absolute;
     left: 3.125rem ;
     top: 0.625rem;
-    width: 10% !important;
+    width: 3.5rem !important;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.44805625rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     /* identical to box height */
-
     letter-spacing: -0.02em;
 
     /* white */
@@ -109,7 +108,7 @@
 }
 .containerUser .icon-circle{
     position: absolute;
-    right: 0625rem;
+    right: 0.625rem;
     top: 0.3125rem;
     color: aliceblue;
 }
@@ -126,16 +125,15 @@
 }
 
 .messageGoodMoring h5{
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.5625rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 
     /* dark blue */
 
     color: #3A4956;
-
 }
 .contaienrForm{
     overflow: auto;
@@ -157,26 +155,29 @@
     top: 0.625rem;
 }
 .getGelpDiv a{
-    color: #58BEF3;
-    width: 7.5rem;
+    width: 7.7rem;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: 500 !important;
+    font-weight: 400;
     font-size: 1.5rem;
-    line-height: 2.625rem;
+    line-height: 2.1rem;
     display: flex;
     align-items: center;
     text-decoration-line: underline;
     position: absolute;
-    right:0.9375rem;
+    right:0.9375rem ;
     transition: all 0.5s;
+    
+    /* highlighted blue */
 
+    color: #58BEF3;
 }
 .getGelpDiv span{    
     color: #58BEF3;
     position: absolute;
     right:1px;
-    font-size: 1.375rem;
+    font-size:1.375rem;
+    /* transition: all 0.3s; */
 }
 .welcomeBackH1{
     display: flex;
@@ -208,13 +209,12 @@
     /* Blue 1 */
     
     color: #208AE7;
-
 }
 .containerForm{
     position: absolute;
     top: 12.5rem;
     left: 4.375rem;
-    transition: all 0.4s;
+    transition: all 1.4s;
 }
 @media screen and (max-width: 576px) {
     .containerForm{
@@ -235,7 +235,6 @@
     box-shadow: none;
     box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 0.625rem;
-
 }
 .form-group .inputUserName,
 .form-group .inputPasswod{
@@ -244,43 +243,18 @@
     /* card shadow */
     box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 0.625rem;
-    padding: 0.625rem !important;    
-}
-@media screen and (max-width: 768px) {
-    .form-group .inputUserName,
-    .form-group .inputPasswod {
-        width: 120% !important;
-        display: flex;
-        
-        transition: all 0.8s;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .form-group .inputUserName,
-    .form-group .inputPasswod {
-        width: 100% !important;
-        display: flex;
-        transition: all 0.5s;
-    }
+    padding: 0.625rem !important; 
 }
 .form-group label{
     font-style: normal;
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 1.1875rem;
+    line-height: 1.19rem;
     display: flex;
     align-items: center;
     text-transform: capitalize;
     color: #3A4956 ;
 }
-@media screen and (max-width: 768px) {
-    .form-group label{
-        width: 90%;
-        transition: all 0.5s;
-    }
-}
-
 .containerCheckAndForget{
     display: flex;
     justify-content: space-between;
@@ -289,7 +263,7 @@
 .ForgetPassword a{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 !important;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
     display: flex;
@@ -325,7 +299,7 @@
     color: #58BEF3;
 }
 .btnLogindiv{
-    margin-top:2rem  !important;
+    margin-top: 2rem !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,9 +318,3 @@
     border: none;
     transition: all 0.5s;
 }
-@media screen and (max-width: 768px) {
-    .btnLogindiv button {
-        padding: 0.625rem 5.625rem;
-        transition: all 0.5s;
-    }
-  }
