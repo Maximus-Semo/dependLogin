@@ -211,21 +211,10 @@
 
 }
 .containerForm{
-    width: 85%!important;
     position: absolute;
     top: 12.5rem;
     left: 4.375rem;
     transition: all 0.4s;
-}
-@media screen and (max-width: 768px) {
-    .containerForm{
-        width: 95%!important;
-        position: absolute;
-        top: 12.5rem;
-        left: 4%;
-        overflow: hidden;
-        transition: all 0.4s;
-    }
 }
 @media screen and (max-width: 576px) {
     .containerForm{
@@ -234,9 +223,9 @@
         top: 12.5rem;
         left: 3%;
         transition: all 0.4s;
-
     }
-}
+} 
+
 .form-group{
     margin: 1.875rem;
 }
