@@ -416,3 +416,10 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+.btnLogindiv button:focus{
+    -webkit-box-shadow:none ;
+            box-shadow:none ;
+}
+.btnLogindiv button:hover{
+    background: #299bd8e0;
+}
